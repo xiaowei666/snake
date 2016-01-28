@@ -1,0 +1,77 @@
+body{
+	margin: 0;
+	font-family: "微软雅黑";
+	background-image:url('../images/星空13.jpg') ;
+}
+#zhanchang{
+	width: 600px;
+	height: 600px;
+	border:0px solid black;
+	background-color:rgba(228, 160, 160, 0.15);
+	margin: 0 auto;
+	position: absolute;
+  	top: 30px;
+  	left: 400px;
+}
+.block{
+	float: left;
+	margin: 0 1px 1px 0;
+	background-size: cover;
+	border-radius: 50% ; 
+}
+#tishi{
+	  width: 300px;
+	  height: 174px;
+	  background-color: rgba(242, 152, 49, 0.86);
+	  position: absolute;
+	  top: 131px;
+	  left: 160px;
+	  line-height: 174px;
+	  text-align: center;
+	  color:#fff;
+	  font-size: 20px;
+}
+.start{
+	width: 600px;
+	height: 600px;
+	border:0px solid black;
+	background:url('../images/jing.png');
+	margin: 0 auto;
+	line-height: 450px;
+  	font-size: 46px;
+  	text-align: center;
+  	color:rgb(138, 61, 234);
+	position: absolute;
+  	top: 30px;
+  	left: 400px;
+  	z-index: 10000;
+  	transition:all 1s ease; 
+}
+.kaishi{
+	height:120px;
+	width:200px;
+	background-color: rgba(72, 46, 28, 0.79);
+	font-size: 26px;
+	color:#FAFAFA;
+	position:absolute;
+	top:400px;
+	left:200px;
+	line-height: 120px;
+	text-align: center;
+	z-index: 11000;
+	border:12px solid rgb(179, 130, 161);
+}
+.again{
+	height:80px;
+	width:160px;
+	background-color: rgba(72, 46, 28, 0.79);
+	font-size: 26px;
+	color:#FAFAFA;
+	position:absolute;
+	top:260px;
+	right:-280px;
+	line-height: 80px;
+	text-align: center;
+	z-index: 11000;
+	border:12px solid rgb(179, 130, 161);
+}
